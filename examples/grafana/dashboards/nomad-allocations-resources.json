@@ -2,6 +2,7 @@
   "annotations": {
     "list": [
       {
+        "$$hashKey": "object:514",
         "builtIn": 1,
         "datasource": "-- Grafana --",
         "enable": true,
@@ -12,12 +13,22 @@
       }
     ]
   },
-  "editable": false,
+  "editable": true,
   "gnetId": null,
   "graphTooltip": 1,
-  "id": null,
-  "iteration": 1523368960289,
-  "links": [],
+  "id": 1,
+  "iteration": 1523516280812,
+  "links": [
+    {
+      "icon": "external link",
+      "keepTime": true,
+      "tags": [
+        "nomad"
+      ],
+      "targetBlank": true,
+      "type": "dashboards"
+    }
+  ],
   "panels": [
     {
       "aliasColors": {},
@@ -309,11 +320,14 @@
     "list": [
       {
         "allValue": null,
-        "current": {},
+        "current": {
+          "text": "influxdb",
+          "value": "influxdb"
+        },
         "datasource": "InfluxDB",
         "hide": 0,
         "includeAll": false,
-        "label": null,
+        "label": "Job",
         "multi": false,
         "name": "job",
         "options": [],
@@ -329,11 +343,14 @@
       },
       {
         "allValue": null,
-        "current": {},
+        "current": {
+          "text": "influxdb",
+          "value": "influxdb"
+        },
         "datasource": "InfluxDB",
         "hide": 0,
         "includeAll": false,
-        "label": null,
+        "label": "Group",
         "multi": false,
         "name": "taskgroup",
         "options": [],
@@ -349,11 +366,14 @@
       },
       {
         "allValue": null,
-        "current": {},
+        "current": {
+          "text": "influxdb",
+          "value": "influxdb"
+        },
         "datasource": "InfluxDB",
         "hide": 0,
         "includeAll": false,
-        "label": null,
+        "label": "Task",
         "multi": false,
         "name": "task",
         "options": [],
@@ -399,7 +419,7 @@
     ]
   },
   "timezone": "browser",
-  "title": "Nomad Service Allocations",
+  "title": "Nomad Allocations Resources",
   "uid": "000000084",
-  "version": 3
+  "version": 6
 }
