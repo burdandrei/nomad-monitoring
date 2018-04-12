@@ -16,7 +16,6 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 1,
-  "id": 1,
   "iteration": 1523516280812,
   "links": [
     {
@@ -320,10 +319,6 @@
     "list": [
       {
         "allValue": null,
-        "current": {
-          "text": "influxdb",
-          "value": "influxdb"
-        },
         "datasource": "InfluxDB",
         "hide": 0,
         "includeAll": false,
@@ -343,10 +338,6 @@
       },
       {
         "allValue": null,
-        "current": {
-          "text": "influxdb",
-          "value": "influxdb"
-        },
         "datasource": "InfluxDB",
         "hide": 0,
         "includeAll": false,
@@ -366,10 +357,6 @@
       },
       {
         "allValue": null,
-        "current": {
-          "text": "influxdb",
-          "value": "influxdb"
-        },
         "datasource": "InfluxDB",
         "hide": 0,
         "includeAll": false,

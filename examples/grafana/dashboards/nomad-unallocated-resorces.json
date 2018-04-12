@@ -16,7 +16,6 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 2,
-  "id": 2,
   "iteration": 1523516314193,
   "links": [
     {
@@ -602,10 +601,6 @@
     "list": [
       {
         "allValue": null,
-        "current": {
-          "text": "All",
-          "value": "$__all"
-        },
         "datasource": "InfluxDB",
         "hide": 0,
         "includeAll": true,

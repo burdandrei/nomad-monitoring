@@ -16,7 +16,6 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 2,
-  "id": 3,
   "iteration": 1523516302964,
   "links": [
     {
@@ -334,10 +333,6 @@
     "list": [
       {
         "allValue": null,
-        "current": {
-          "text": "Vlad",
-          "value": "Vlad"
-        },
         "datasource": "InfluxDB",
         "hide": 0,
         "includeAll": false,
