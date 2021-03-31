@@ -10,6 +10,6 @@ datasources:
   orgId: 1
   url: http://influxdb.service.consul:8086
   database: telegraf
-  isDefault: true
+  isDefault: false
   version: 1
   editable: false
